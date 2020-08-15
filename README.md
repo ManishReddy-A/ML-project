@@ -5,10 +5,23 @@ The H-1B is an employment-based, non-immigrant visa category for temporary forei
 ## Data Set Source
 The Office of Foreign Labor Certification (OFLC) generates program data that is useful information about the immigration programs including the H1-B visa. The disclosure data updated annually is available at https://www.kaggle.com/nsharan/h-1b-visa
 
-## Dependence&Lib
+## Dependence
 numpy
 pandas
 seaborn
 matplotlib
 sklearn
 mlextend
+imblearn
+
+## Approach
+- Feature Engineering 
+- Label Encoding
+- Under Sampling using NearMiss algorithm
+
+## Algorithms
+- Logistic regression
+- Knn
+- Decision tree
+- Random forest
+- Naive bayes
